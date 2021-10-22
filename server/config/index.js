@@ -13,6 +13,8 @@ module.exports = {
   api: {
     prefix: '/api',
     key: process.env.KEY && process.env.KEY.replace(/\\n/g, '\n'),
+    digitalSignatureKey:
+      process.env.DIGI_KEY && process.env.DIGI_KEY.replace(/\\n/g, '\n'),
     cert: process.env.CERT && process.env.CERT.replace(/\\n/g, '\n'),
     errorString: 'Error hitting API',
   },
