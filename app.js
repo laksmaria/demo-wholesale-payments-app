@@ -30,7 +30,6 @@ function startServer() {
       },
     });
   });
-  console.log('here');
   app
     .listen(config.port, () => {
       console.log(`

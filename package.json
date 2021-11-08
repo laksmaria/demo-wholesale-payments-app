@@ -4,11 +4,11 @@
   "private": true,
   "description": "Our goal is to create re-usable sample apps that external developer can leverage as reference.",
   "scripts": {
-    "build": "cd client && yarn install  && yarn run build",
-    "client": "cd client && yarn start",
+    "build": "cd client && npm install  && npm run build",
+    "client": "cd client && npm start",
     "test": "echo 'Tests to be implemented'",
-    "client-dependencies": "cd client && yarn install",
-    "start": "yarn install && yarn run client-dependencies &&  concurrently --kill-others-on-fail \"nodemon app.js\" \"yarn client\" --success"
+    "client-dependencies": "cd client && npm install",
+    "start": "npm install && npm run client-dependencies &&  concurrently --kill-others-on-fail \"nodemon app.js\" \"npm run client\" --success"
   },
   "repository": {
     "type": "git",
