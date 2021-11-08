@@ -8,7 +8,7 @@
     "client": "cd client && yarn start",
     "test": "echo 'Tests to be implemented'",
     "client-dependencies": "cd client && yarn install",
-    "start": "yarn install && yarn run client-dependencies &&  concurrently --kill-others-on-fail \"nodemon server/app.js\" \"yarn client\" --success"
+    "start": "yarn install && yarn run client-dependencies &&  concurrently --kill-others-on-fail \"nodemon app.js\" \"yarn client\" --success"
   },
   "repository": {
     "type": "git",
