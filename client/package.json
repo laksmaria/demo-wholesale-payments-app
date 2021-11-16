@@ -16,7 +16,7 @@
     "react-scripts": "4.0.3"
   },
   "scripts": {
-    "start": "set HTTPS=true && craco start",
+    "start": "set HTTPS=true && PORT=3000 craco start",
     "build": "craco build",
     "test": "craco test",
     "prettier": "prettier --write ."
@@ -28,10 +28,10 @@
   "devDependencies": {
     "@babel/core": "^7.13.0",
     "@tailwindcss/postcss7-compat": "^2.2.17",
-    "autoprefixer": "^9.8.6",
+    "autoprefixer": "^9.8.8",
     "eslint": "^7.22.0",
     "eslint-plugin-react": "^7.23.1",
-    "postcss": "^7.0.35",
+    "postcss": "^7.0.39",
     "prettier": "^2.2.1",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
   },
@@ -47,5 +47,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:5000"
+  "proxy": "http://localhost:8080"
 }

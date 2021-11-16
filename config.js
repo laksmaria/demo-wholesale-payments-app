@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Your favorite port
    */
-  port: parseInt(process.env.PORT) || 5000,
+  port: parseInt(process.env.PORT) || 8080,
   env: process.env.NODE_ENV || 'development',
 
   /**
